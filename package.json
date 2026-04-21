@@ -1,0 +1,9 @@
+{
+  "name": "kitab.physics",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "hugo --gc --minify",
+    "dev": "hugo server -D",
+    "deploy": "hugo --gc --minify && npx wrangler pages deploy public --project-name kitab-physics --commit-dirty=true"
+  }
+}
